@@ -284,6 +284,7 @@ dataSet[dataSetVersion].characterData =
         img: "raA9MBc.png",
         opts: {
             generation: ["gen3"],
+            former: true
         }
     },
     {
@@ -2014,6 +2015,46 @@ dataSet[dataSetVersion].characterData =
       {
         name: "Vox Akuma",
         img: "Rj5S2uG.png",
+        opts: {
+          generation: ["Niji_EN"],
+          boy: true
+        }
+      },
+      {
+        name: "Yugo Asuma",
+        img: "bKf2Lc0.png",
+        opts: {
+          generation: ["Niji_EN"],
+          boy: true
+        }
+      },
+      {
+        name: "Uki Violeta",
+        img: "A73gLu1.png",
+        opts: {
+          generation: ["Niji_EN"],
+          boy: true
+        }
+      },
+      {
+        name: "Sonny Brisko",
+        img: "9yyTs3P.png",
+        opts: {
+          generation: ["Niji_EN"],
+          boy: true
+        }
+      },
+      {
+        name: "Fulgur Ovid",
+        img: "KD1tdu6.png",
+        opts: {
+          generation: ["Niji_EN"],
+          boy: true
+        }
+      },
+      {
+        name: "Alban Knox",
+        img: "QrgP6R5.png",
         opts: {
           generation: ["Niji_EN"],
           boy: true

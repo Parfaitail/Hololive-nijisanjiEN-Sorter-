@@ -456,6 +456,30 @@ dataSet[dataSetVersion].characterData =
         }
     },
     {
+        name: "Vestia Zeta",
+        img: "qSYRPmv.png",
+        opts: {
+            generation: ["id"],
+            notjphololive: true
+        }
+    },
+    {
+        name: "Kobo Kanaeru",
+        img: "1ghCU52.png",
+        opts: {
+            generation: ["id"],
+            notjphololive: true
+        }
+    },
+    {
+        name: "Kaela Kovalskia",
+        img: "zJ1cFwr.png",
+        opts: {
+            generation: ["id"],
+            notjphololive: true
+        }
+    },
+    {
         name: "Mori Calliope",
         img: "ji63Ua3.png",
         opts: {

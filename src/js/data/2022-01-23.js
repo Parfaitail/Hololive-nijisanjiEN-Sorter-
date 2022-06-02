@@ -33,6 +33,7 @@ dataSet[dataSetVersion].options = [
   {
     name: "Remove Non-JP Hololive talents",
     key: "notjphololive",
+    checked: false,
   },
   {
     name: "Remove male Hololive talents",

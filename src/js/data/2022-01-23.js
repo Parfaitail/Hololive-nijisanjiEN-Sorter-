@@ -27,7 +27,8 @@ dataSet[dataSetVersion].options = [
         { name: "Nijisanji IN", key: "Nijisanji_in" },
         { name: "VShojo agency", key: "_VShojo"},
         { name: "VOMS", key: "_VOMS"},
-        { name: "Independent", key: "Indiv"}
+        { name: "Independent", key: "Indiv"},
+        { name: "Niji Salome", key: "Salome" },
     ]
   },
   {
@@ -825,6 +826,14 @@ dataSet[dataSetVersion].characterData =
         img: "xEO8yuc.png",
         opts: {
           generation: ["Nijisanji_jp"],
+          girl: true
+        }
+      },
+      {
+        name: "Salome Desu wa",
+        img: "wNo5Eii.png",
+        opts: {
+          generation: ["Salome"],
           girl: true
         }
       },

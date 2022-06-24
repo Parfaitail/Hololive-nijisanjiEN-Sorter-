@@ -4,7 +4,7 @@ dataSet[dataSetVersion] = {};
 
 dataSet[dataSetVersion].options = [
   {
-    name: "Filter Hololive",
+    name: "Activate filter",
     key: "generation",
     tooltip: "Check this to restrict to certain generations.",
     checked: false,

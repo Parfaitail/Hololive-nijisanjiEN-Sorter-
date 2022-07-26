@@ -7,28 +7,29 @@ dataSet[dataSetVersion].options = [
     name: "Activate filter",
     key: "generation",
     tooltip: "Check this to restrict to certain generations.",
-    checked: false,
+    checked: true,
     sub: [
-        { name: "Hololive 0th gen", key: "gen0" },
-        { name: "Hololive 1st gen", key: "gen1" },
-        { name: "Hololive 2nd gen", key: "gen2" },
-        { name: "Hololive 3rd gen", key: "gen3" },
-        { name: "Hololive 4th gen", key: "gen4" },
-        { name: "Hololive 5th gen", key: "gen5" },
-        { name: "Hololive 6th gen", key: "gen6" },
-        { name: "Hololive GAMERS", key: "gamers" },
-        { name: "Hololive Indonesia", key: "id" },
-        { name: "Hololive English", key: "en" },
-        { name: "Holostars", key: "stars" },
-        { name: "Nijisanji EN", key: "Niji_EN" },
-        { name: "Nijisanji JP", key: "Nijisanji_jp" },
-        { name: "Nijisanji ID", key: "Nijisanji_id" },
-        { name: "Nijisanji KR", key: "Nijisanji_kr" },
-        { name: "Nijisanji IN", key: "Nijisanji_in" },
-        { name: "VShojo agency", key: "_VShojo"},
-        { name: "VOMS", key: "_VOMS"},
-        { name: "Independent", key: "Indiv"},
-        { name: "Niji Salome", key: "Salome" },
+        { name: "Hololive 0th gen", key: "gen0",checked:true },
+        { name: "Hololive 1st gen", key: "gen1",checked:true },
+        { name: "Hololive 2nd gen", key: "gen2",checked:true },
+        { name: "Hololive 3rd gen", key: "gen3",checked:true },
+        { name: "Hololive 4th gen", key: "gen4",checked:true },
+        { name: "Hololive 5th gen", key: "gen5",checked:true },
+        { name: "Hololive 6th gen", key: "gen6",checked:true },
+        { name: "Hololive GAMERS", key: "gamers",checked:true },
+        { name: "Hololive Indonesia", key: "id",checked:true },
+        { name: "Hololive English", key: "en",checked:true },
+        { name: "Holostars", key: "stars",checked:false  },
+        { name: "Holostars EN", key: "stars_EN",checked:false  },
+        { name: "Nijisanji EN", key: "Niji_EN",checked:true },
+        { name: "Nijisanji JP", key: "Nijisanji_jp",checked:false  },
+        { name: "Nijisanji ID", key: "Nijisanji_id",checked:false  },
+        { name: "Nijisanji KR", key: "Nijisanji_kr",checked:false  },
+        { name: "Nijisanji IN", key: "Nijisanji_in",checked:false  },
+        { name: "VShojo agency", key: "_VShojo",checked:false },
+        { name: "VOMS", key: "_VOMS",checked:false },
+        { name: "Independent", key: "Indiv",checked:false },
+        { name: "Niji Salome", key: "Salome",checked:false  },
     ]
   },
   {
@@ -147,6 +148,30 @@ dataSet[dataSetVersion].characterData =
             generation: ["Niji_EN"],
             girl: true
           }
+    },
+    {
+      name: "Maria Marionette",
+      img: "kaPZ3YW.png",
+      opts: {
+          generation: ["Niji_EN"],
+          girl: true
+        }
+    },
+    {
+      name: "Aia Amare",
+      img: "4kiGsPa.png",
+      opts: {
+          generation: ["Niji_EN"],
+          girl: true
+        }
+    },
+    {
+      name: "Scarle Yonaguni",
+      img: "hzixwvY.png",
+      opts: {
+          generation: ["Niji_EN"],
+          girl: true
+        }
     },
     {
         name: "Tokino Sora",
@@ -681,8 +706,39 @@ dataSet[dataSetVersion].characterData =
             generation: ["stars"],
             notgirl: true,
             former: true,
+          },
+    },
+    {
+      name: "Regis Altare",
+      img: "5KcxVdC.png",
+      opts: {
+          generation: ["stars_EN"],
+          notgirl: true,
         },
-
+    },
+    {
+      name: "Magni Dezmond",
+      img: "eVf55uc.png",
+      opts: {
+          generation: ["stars_EN"],
+          notgirl: true,
+        },
+    },
+    {
+      name: "Axel Syrios",
+      img: "2Muoio5.png",
+      opts: {
+          generation: ["stars_EN"],
+          notgirl: true,
+        },
+    },
+    {
+      name: "Noir Vesper",
+      img: "UPmob8F.png",
+      opts: {
+          generation: ["stars_EN"],
+          notgirl: true,
+        },
     },
     //NIJISANJI SECTION
     {
@@ -2095,6 +2151,30 @@ dataSet[dataSetVersion].characterData =
         }
       },
       {
+        name: "Kyo Kaneko",
+        img: "rEvMdU8.png",
+        opts: {
+          generation: ["Niji_EN"],
+          boy: true
+        }
+      },
+      {
+        name: "Aster Arcadia",
+        img: "jk8SVhy.png",
+        opts: {
+          generation: ["Niji_EN"],
+          boy: true
+        }
+      },
+      {
+        name: "Ren Zotto",
+        img: "GbIiEoR.png",
+        opts: {
+          generation: ["Niji_EN"],
+          boy: true
+        }
+      },
+      {
         name: "Aadya",
         img: "wR9tLtl.png",
         opts: {
@@ -2174,6 +2254,20 @@ dataSet[dataSetVersion].characterData =
       {
         name: "Zentreya",
         img: "nqMGP8W.png",
+        opts: {
+          generation: ["_VShojo"]
+        }
+      },
+      {
+        name: "Kson",
+        img: "tIYUqzP.png",
+        opts: {
+          generation: ["_VShojo"]
+        }
+      },
+      {
+        name: "Amemiya Nazuna",
+        img: "fluejun.png",
         opts: {
           generation: ["_VShojo"]
         }

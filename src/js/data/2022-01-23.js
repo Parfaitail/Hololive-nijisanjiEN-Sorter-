@@ -559,7 +559,8 @@ dataSet[dataSetVersion].characterData =
         img: "W35ga3b.png",
         opts: {
             generation: ["en"],
-            notjphololive: true
+            notjphololive: true,
+            former: true
         }
     },
     {

@@ -103,7 +103,7 @@ dataSet[dataSetVersion].characterData =
     },
     {
         name: "Petra Gurin",
-        img: "C5nCbZP.png",
+        img: "cODUnos.png",
         opts: {
             generation: ["Niji_EN"],
             girl: true
@@ -111,7 +111,7 @@ dataSet[dataSetVersion].characterData =
     },
     {
         name: "Selen Tatsuki",
-        img: "GoeBSxy.png",
+        img: "sQ304CI.png",
         opts: {
             generation: ["Niji_EN"],
             girl: true
@@ -119,7 +119,7 @@ dataSet[dataSetVersion].characterData =
     },
     {
         name: "Rosemi Lovelock",
-        img: "vBnj5vK.png",
+        img: "Nnpvwzd.png",
         opts: {
             generation: ["Niji_EN"],
             girl: true

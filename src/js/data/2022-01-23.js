@@ -103,7 +103,7 @@ dataSet[dataSetVersion].characterData =
     },
     {
         name: "Petra Gurin",
-        img: "vFSrJoY.png",
+        img: "ssaGHBG.png",
         opts: {
             generation: ["Niji_EN"],
             girl: true

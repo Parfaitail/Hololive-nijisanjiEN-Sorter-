@@ -111,7 +111,7 @@ dataSet[dataSetVersion].characterData =
     },
     {
         name: "Selen Tatsuki",
-        img: "sQ304CI.png",
+        img: "bLGuII1.png",
         opts: {
             generation: ["Niji_EN"],
             girl: true
@@ -119,7 +119,7 @@ dataSet[dataSetVersion].characterData =
     },
     {
         name: "Rosemi Lovelock",
-        img: "Nnpvwzd.png",
+        img: "yBqACcn.png",
         opts: {
             generation: ["Niji_EN"],
             girl: true

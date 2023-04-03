@@ -30,6 +30,9 @@ dataSet[dataSetVersion].options = [
         { name: "VOMS", key: "_VOMS",checked:false },
         { name: "Independent", key: "Indiv",checked:false },
         { name: "Niji Salome", key: "Salome",checked:false  },
+        { name: "Idol Corp", key: "IdolCorp",checked:false  },
+        { name: "Phase Connect", key: "PConnect",checked:true  },
+       // { name: "Nep", key: "Nep",checked:false  },
     ]
   },
   {
@@ -64,17 +67,105 @@ dataSet[dataSetVersion].options = [
     key: "retired",
     tooltip: "Check this to remove graduated/retired talents.",
     checked: true
-  }
+  },
+  {        
+    name: "Remove retired talents (all agencies)",
+    key: "gone",
+    tooltip: "Check this to remove graduated/retired talents.",
+    checked: true
+  },
 ];
 
 dataSet[dataSetVersion].characterData = 
 [
+  {
+    name: "Pipkin Pippa",
+    img: "kEupDDy.png",
+    opts: {
+        generation: ["PConnect"],
+        girl: true,
+        Nep:true
+      }
+  },
+  {
+    name: "Tenma Maemi",
+    img: "k8mNyGU.png",
+    opts: {
+        generation: ["PConnect"],
+        girl: true
+      }
+  },
+  {
+    name: "Yuko Yurei",
+    img: "hTBfIO5.png",
+    opts: {
+        generation: ["IdolCorp"],
+        girl: true
+      }
+  },
+  {
+    name: "Rin Penrose",
+    img: "8LiaPzo.png",
+    opts: {
+        generation: ["IdolCorp"],
+        girl: true
+      }
+  },
+  {
+    name: "Pochi Wanmaru",
+    img: "c5bzURq.png",
+    opts: {
+        generation: ["IdolCorp"],
+        girl: true
+      }
+  },
+  {
+    name: "Pochi Wanmaru",
+    img: "c5bzURq.png",
+    opts: {
+        generation: ["IdolCorp"],
+        girl: true
+      }
+  },
+  {
+    name: "Nikki Rei",
+    img: "DU6qUxd.png",
+    opts: {
+        generation: ["IdolCorp"],
+        girl: true
+      }
+  },
+  {
+    name: "Katarina Qutie",
+    img: "LuIlAyW.png",
+    opts: {
+        generation: ["IdolCorp"],
+        girl: true
+      }
+  },
+  {
+    name: "Juna Unagi",
+    img: "HsNgKIa.png",
+    opts: {
+        generation: ["IdolCorp"],
+        girl: true
+      }
+  },
+  {
+    name: "Fuyo Cloverfield",
+    img: "zzt14aP.png",
+    opts: {
+        generation: ["IdolCorp"],
+        girl: true
+      }
+  },
     {
         name: "Millie Parfait",
         img: "DpyKCL5.png",
         opts: {
             generation: ["Niji_EN"],
-            girl: true
+            girl: true,
+            Nep:true
           }
     },
     {
@@ -82,7 +173,8 @@ dataSet[dataSetVersion].characterData =
         img: "i3lHjRe.png",
         opts: {
             generation: ["Niji_EN"],
-            girl: true
+            girl: true,
+            Nep:true
           }
     },
     {
@@ -90,7 +182,8 @@ dataSet[dataSetVersion].characterData =
         img: "BenMjhQ.png",
         opts: {
             generation: ["Niji_EN"],
-            girl: true
+            girl: true,
+            Nep:true
           }
     },
     {
@@ -106,7 +199,8 @@ dataSet[dataSetVersion].characterData =
         img: "ssaGHBG.png",
         opts: {
             generation: ["Niji_EN"],
-            girl: true
+            girl: true,
+            Nep:true
           }
     },
     {
@@ -114,7 +208,8 @@ dataSet[dataSetVersion].characterData =
         img: "bLGuII1.png",
         opts: {
             generation: ["Niji_EN"],
-            girl: true
+            girl: true,
+            Nep:true
           }
     },
     {
@@ -122,7 +217,8 @@ dataSet[dataSetVersion].characterData =
         img: "yBqACcn.png",
         opts: {
             generation: ["Niji_EN"],
-            girl: true
+            girl: true,
+            Nep:true
           }
     },
     {
@@ -130,7 +226,8 @@ dataSet[dataSetVersion].characterData =
         img: "Ry39iAs.png",
         opts: {
             generation: ["Niji_EN"],
-            girl: true
+            girl: true,
+            Nep:true
           }
     },
     {
@@ -138,7 +235,8 @@ dataSet[dataSetVersion].characterData =
         img: "mAukdHK.png",
         opts: {
             generation: ["Niji_EN"],
-            girl: true
+            girl: true,
+            Nep:true
           }
     },
     {
@@ -146,7 +244,8 @@ dataSet[dataSetVersion].characterData =
         img: "KDCsAjz.png",
         opts: {
             generation: ["Niji_EN"],
-            girl: true
+            girl: true,
+            Nep:true
           }
     },
     {
@@ -178,6 +277,7 @@ dataSet[dataSetVersion].characterData =
         img: "3H7gifT.png",
         opts: {
             generation: ["gen0"],
+            Nep:true
         }
     },
     {
@@ -192,6 +292,7 @@ dataSet[dataSetVersion].characterData =
         img: "7zoSqIc.png",
         opts: {
             generation: ["gen0"],
+            Nep:true
         }
     },
     {
@@ -199,6 +300,7 @@ dataSet[dataSetVersion].characterData =
         img: "WLnC9WQ.png",
         opts: {
             generation: ["gen0"],
+            Nep:true
         }
     },
     {
@@ -213,13 +315,14 @@ dataSet[dataSetVersion].characterData =
         img: "fbowqMT.png",
         opts: {
             generation: ["gen1"],
+            Nep:true
         }
     },
     {
         name: "Yozora Mel",
         img: "5N2CwKX.png",
         opts: {
-            generation: ["gen1"],
+            generation: ["gen1"]
         }
     },
     {
@@ -241,6 +344,7 @@ dataSet[dataSetVersion].characterData =
         img: "zqMZjIJ.png",
         opts: {
             generation: ["gen1", "gamers"],
+            Nep:true
         }
     },
     {
@@ -248,6 +352,7 @@ dataSet[dataSetVersion].characterData =
         img: "AZQqT3h.png",
         opts: {
             generation: ["gen2"],
+            Nep:true
         }
     },
     {
@@ -262,6 +367,7 @@ dataSet[dataSetVersion].characterData =
         img: "2lWPCN2.png",
         opts: {
             generation: ["gen2"],
+            Nep:true
         }
     },
     {
@@ -290,6 +396,7 @@ dataSet[dataSetVersion].characterData =
         img: "incgd6s.png",
         opts: {
             generation: ["gamers"],
+            Nep:true
         }
     },
     {
@@ -297,6 +404,7 @@ dataSet[dataSetVersion].characterData =
         img: "2XwHImi.png",
         opts: {
             generation: ["gamers"],
+            Nep:true
         }
     },
     {
@@ -304,6 +412,7 @@ dataSet[dataSetVersion].characterData =
         img: "6cAiPq6.png",
         opts: {
             generation: ["gen3"],
+            Nep:true
         }
     },
     {
@@ -311,7 +420,9 @@ dataSet[dataSetVersion].characterData =
         img: "raA9MBc.png",
         opts: {
             generation: ["gen3"],
-            former: true
+            former: true,
+            gone: true,
+            Nep:true
         }
     },
     {
@@ -340,6 +451,7 @@ dataSet[dataSetVersion].characterData =
         img: "2ORKRvl.png",
         opts: {
             generation: ["gen4"],
+            Nep:true
         }
     },
     {
@@ -354,7 +466,8 @@ dataSet[dataSetVersion].characterData =
         img: "QGMmKn9.png",
         opts: {
             generation: ["gen4"],
-            former: true
+            former: true,
+            gone: true
         }
     },
     {
@@ -362,6 +475,7 @@ dataSet[dataSetVersion].characterData =
         img: "Su2pbKw.png",
         opts: {
             generation: ["gen4"],
+            Nep:true
         }
     },
     {
@@ -369,6 +483,7 @@ dataSet[dataSetVersion].characterData =
         img: "ePe6hTj.png",
         opts: {
             generation: ["gen4"],
+            Nep:true
         }
     },
     {
@@ -376,6 +491,7 @@ dataSet[dataSetVersion].characterData =
         img: "yUdexNX.png",
         opts: {
             generation: ["gen5"],
+            Nep:true
         }
     },
     {
@@ -383,6 +499,7 @@ dataSet[dataSetVersion].characterData =
         img: "0h9zYfy.png",
         opts: {
             generation: ["gen5"],
+            Nep:true
         }
     },
     {
@@ -390,6 +507,7 @@ dataSet[dataSetVersion].characterData =
         img: "BB5bqyV.png",
         opts: {
             generation: ["gen5"],
+            Nep:true
         }
     },
     {
@@ -397,6 +515,7 @@ dataSet[dataSetVersion].characterData =
         img: "1A4x9af.png",
         opts: {
             generation: ["gen5"],
+            Nep:true
         }
     },
     {
@@ -404,6 +523,7 @@ dataSet[dataSetVersion].characterData =
       img: "nT50wsZ.png",
       opts: {
           generation: ["gen6"],
+          Nep:true
       }
     },
     {
@@ -425,6 +545,7 @@ dataSet[dataSetVersion].characterData =
       img: "dNA527v.png",
       opts: {
           generation: ["gen6"],
+          Nep:true
       }
     },
     {
@@ -439,7 +560,8 @@ dataSet[dataSetVersion].characterData =
         img: "nLGOcz9.png",
         opts: {
             generation: ["id"],
-            notjphololive: true
+            notjphololive: true,
+            Nep:true
         }
     },
     {
@@ -447,7 +569,8 @@ dataSet[dataSetVersion].characterData =
         img: "GTCxy5D.png",
         opts: {
             generation: ["id"],
-            notjphololive: true
+            notjphololive: true,
+            Nep:true
         }
     },
     {
@@ -495,7 +618,8 @@ dataSet[dataSetVersion].characterData =
         img: "1ghCU52.png",
         opts: {
             generation: ["id"],
-            notjphololive: true
+            notjphololive: true,
+            Nep:true
         }
     },
     {
@@ -519,7 +643,8 @@ dataSet[dataSetVersion].characterData =
         img: "D7vHpV8.png",
         opts: {
             generation: ["en"],
-            notjphololive: true
+            notjphololive: true,
+            Nep:true
         }
     },
     {
@@ -527,7 +652,8 @@ dataSet[dataSetVersion].characterData =
         img: "WZ0RHO2.png",
         opts: {
             generation: ["en"],
-            notjphololive: true
+            notjphololive: true,
+            Nep:true
         }
     },
     {
@@ -535,7 +661,8 @@ dataSet[dataSetVersion].characterData =
         img: "ipnOFe3.png",
         opts: {
             generation: ["en"],
-            notjphololive: true
+            notjphololive: true,
+            Nep:true
         }
     },
     {
@@ -543,7 +670,8 @@ dataSet[dataSetVersion].characterData =
         img: "T0llFtP.png",
         opts: {
             generation: ["en"],
-            notjphololive: true
+            notjphololive: true,
+            Nep:true
         }
     },
     {
@@ -560,7 +688,8 @@ dataSet[dataSetVersion].characterData =
         opts: {
             generation: ["en"],
             notjphololive: true,
-            former: true
+            former: true,
+            gone: true
         }
     },
     {
@@ -568,7 +697,8 @@ dataSet[dataSetVersion].characterData =
         img: "GbpUvSU.png",
         opts: {
             generation: ["en"],
-            notjphololive: true
+            notjphololive: true,
+            Nep:true
         }
     },
     {
@@ -576,7 +706,8 @@ dataSet[dataSetVersion].characterData =
         img: "duN7VIo.png",
         opts: {
             generation: ["en"],
-            notjphololive: true
+            notjphololive: true,
+            Nep:true
         }
     },
     {
@@ -584,7 +715,8 @@ dataSet[dataSetVersion].characterData =
         img: "XuADM2e.png",
         opts: {
             generation: ["en"],
-            notjphololive: true
+            notjphololive: true,
+            Nep:true
         }
     },
     {
@@ -592,7 +724,8 @@ dataSet[dataSetVersion].characterData =
         img: "Qtnjnfn.png",
         opts: {
             generation: ["en"],
-            notjphololive: true
+            notjphololive: true,
+            Nep:true
         }
     },
     {
@@ -681,6 +814,7 @@ dataSet[dataSetVersion].characterData =
         opts: {
             generation: ["gen1"],
             former: true,
+            gone: true
         }
     },
     {
@@ -688,7 +822,8 @@ dataSet[dataSetVersion].characterData =
         img: "LXpkF3F.png",
         opts: {
             generation: ["gen5"],
-            former: true
+            former: true,
+            gone: true
         }
     },
     {
@@ -698,6 +833,7 @@ dataSet[dataSetVersion].characterData =
             generation: ["stars"],
             notgirl: true,
             former: true,
+            gone: true
         }
     },
     {
@@ -707,6 +843,7 @@ dataSet[dataSetVersion].characterData =
             generation: ["stars"],
             notgirl: true,
             former: true,
+            gone: true
           },
     },
     {
@@ -915,7 +1052,8 @@ dataSet[dataSetVersion].characterData =
         img: "meGIDKt.png",
         opts: {
           generation: ["Nijisanji_jp"],
-          girl: true
+          girl: true,
+          Nep:true
         }
       },
       {
@@ -924,7 +1062,8 @@ dataSet[dataSetVersion].characterData =
         opts: {
           generation: ["Nijisanji_jp"],
           girl: true,
-          retired: true
+          retired: true,
+          gone: true
         }
       },
       {
@@ -957,7 +1096,8 @@ dataSet[dataSetVersion].characterData =
         opts: {
           generation: ["Nijisanji_jp"],
           girl: true,
-          retired: true
+          retired: true,
+          gone: true
         }
       },
       {
@@ -990,7 +1130,8 @@ dataSet[dataSetVersion].characterData =
         opts: {
           generation: ["Nijisanji_jp"],
           girl: true,
-          retired: true
+          retired: true,
+          gone: true
         }
       },
       {
@@ -999,7 +1140,8 @@ dataSet[dataSetVersion].characterData =
         opts: {
           generation: ["Nijisanji_jp"],
           girl: true,
-          retired: true
+          retired: true,
+          gone: true
         }
       },
       {
@@ -1016,7 +1158,8 @@ dataSet[dataSetVersion].characterData =
         opts: {
           generation: ["Nijisanji_jp"],
           boy: true,
-          retired: true
+          retired: true,
+          gone: true
         }
       },
       {
@@ -1025,7 +1168,8 @@ dataSet[dataSetVersion].characterData =
         opts: {
           generation: ["Nijisanji_jp"],
           girl: true,
-          retired: true
+          retired: true,
+          gone: true
         }
       },
       {
@@ -1160,7 +1304,8 @@ dataSet[dataSetVersion].characterData =
         opts: {
           generation: ["Nijisanji_jp"],
           girl: true, 
-          retired: true
+          retired: true,
+          gone: true
         }
       },
       {
@@ -1177,7 +1322,8 @@ dataSet[dataSetVersion].characterData =
         opts: {
           generation: ["Nijisanji_jp"],
           girl: true,
-          retired: true
+          retired: true,
+          gone: true
         }
       },
       {
@@ -1242,7 +1388,8 @@ dataSet[dataSetVersion].characterData =
         opts: {
           generation: ["Nijisanji_jp"],
           girl: true,
-          retired: true
+          retired: true,
+          gone: true
         }
       },
       {
@@ -1291,7 +1438,8 @@ dataSet[dataSetVersion].characterData =
         opts: {
           generation: ["Nijisanji_jp"],
           boy: true,
-          retired: true
+          retired: true,
+          gone: true
         }
       },
       {
@@ -1300,7 +1448,8 @@ dataSet[dataSetVersion].characterData =
         opts: {
           generation: ["Nijisanji_jp"],
           girl: true,
-          retired: true
+          retired: true,
+          gone: true
         }
       },
       {
@@ -1349,7 +1498,8 @@ dataSet[dataSetVersion].characterData =
         opts: {
           generation: ["Nijisanji_jp"],
           girl: true,
-          retired: true
+          retired: true,
+          gone: true
         }
       },
       {
@@ -1637,7 +1787,8 @@ dataSet[dataSetVersion].characterData =
         opts: {
           generation: ["Nijisanji_jp"],
           girl: true,
-          retired: true
+          retired: true,
+          gone: true
         }
       },
       {
@@ -1685,7 +1836,8 @@ dataSet[dataSetVersion].characterData =
         img: "eVbjFQ7.png",
         opts: {
           generation: ["Nijisanji_jp"],
-          girl: true
+          girl: true,
+          Nep:true
         }
       },
       {
@@ -1886,7 +2038,8 @@ dataSet[dataSetVersion].characterData =
         opts: {
           generation: ["Nijisanji_kr"],
           girl: true,
-          retired: true
+          retired: true,
+          gone: true
         }
       },
       {
@@ -1895,7 +2048,8 @@ dataSet[dataSetVersion].characterData =
         opts: {
           generation: ["Nijisanji_kr"],
           girl: true,
-          retired: true
+          retired: true,
+          gone: true
         }
       },
       {
@@ -1904,7 +2058,8 @@ dataSet[dataSetVersion].characterData =
         opts: {
           generation: ["Nijisanji_kr"],
           girl: true,
-          retired: true
+          retired: true,
+          gone: true
         }
       },
       {
@@ -1921,7 +2076,8 @@ dataSet[dataSetVersion].characterData =
         opts: {
           generation: ["Nijisanji_kr"],
           girl: true,
-          retired: true
+          retired: true,
+          gone: true
         }
       },
       {
@@ -1938,7 +2094,8 @@ dataSet[dataSetVersion].characterData =
         opts: {
           generation: ["Nijisanji_kr"],
           boy: true,
-          retired: true
+          retired: true,
+          gone: true
         }
       },
       {
@@ -1947,7 +2104,8 @@ dataSet[dataSetVersion].characterData =
         opts: {
           generation: ["Nijisanji_kr"],
           boy: true,
-          retired: true
+          retired: true,
+          gone: true
         }
       },
       {
@@ -1964,7 +2122,8 @@ dataSet[dataSetVersion].characterData =
         opts: {
           generation: ["Nijisanji_kr"],
           boy: true,
-          retired: true
+          retired: true,
+          gone: true
         }
       },
       {
@@ -2181,7 +2340,8 @@ dataSet[dataSetVersion].characterData =
         opts: {
           generation: ["Nijisanji_in"],
           girl: true,
-          retired: true
+          retired: true,
+          gone: true
         }
       },
       {
@@ -2190,7 +2350,8 @@ dataSet[dataSetVersion].characterData =
         opts: {
           generation: ["Nijisanji_in"],
           girl: true,
-          retired: true
+          retired: true,
+          gone: true
         }
       },
       {
@@ -2199,7 +2360,8 @@ dataSet[dataSetVersion].characterData =
         opts: {
           generation: ["Nijisanji_in"],
           boy: true,
-          retired: true
+          retired: true,
+          gone: true
         }
       },
       //vshoujo section
@@ -2235,7 +2397,8 @@ dataSet[dataSetVersion].characterData =
         name: "Nyanners",
         img: "G93u5cb.png",
         opts: {
-          generation: ["_VShojo"]
+          generation: ["_VShojo"],
+          Nep:true
         }
       },
       {
@@ -2278,7 +2441,8 @@ dataSet[dataSetVersion].characterData =
         name: "Amano Pikamee",
         img: "4PYKbr5.png",
         opts:{
-          generation: ["_VOMS"]
+          generation: ["_VOMS"],
+          gone: true
         }
       },
       {

@@ -28,7 +28,7 @@ dataSet[dataSetVersion].options = [
         { name: "Nijisanji IN", key: "Nijisanji_in",checked:false  },
         { name: "VShojo agency", key: "_VShojo",checked:false },
         { name: "VOMS", key: "_VOMS",checked:false },
-        { name: "Independent", key: "Indiv",checked:false },
+    //    { name: "Independent", key: "Indiv",checked:false },
         { name: "Niji Salome", key: "Salome",checked:false  },
         { name: "Idol Corp", key: "IdolCorp",checked:false  },
         { name: "Phase Connect", key: "PConnect",checked:true  },
@@ -2467,11 +2467,12 @@ dataSet[dataSetVersion].characterData =
         }
       },
       //Independent 
-      {
+  /*    {
         name: "Amatsuka Uto",
         img: "c2QtsWB.png",
         opts:{
           generation: ["Indiv"]
         }
       }
+*/
 ];

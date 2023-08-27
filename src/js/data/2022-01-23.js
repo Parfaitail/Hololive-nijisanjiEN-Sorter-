@@ -28,7 +28,7 @@ dataSet[dataSetVersion].options = [
         { name: "Nijisanji IN", key: "Nijisanji_in",checked:false  },
         { name: "VShojo agency", key: "_VShojo",checked:false },
         { name: "VOMS", key: "_VOMS",checked:false },
-    //    { name: "Independent", key: "Indiv",checked:false },
+        { name: "Independent", key: "Indiv",checked:false },
         { name: "Niji Salome", key: "Salome",checked:false  },
         { name: "Idol Corp", key: "IdolCorp",checked:false  },
         { name: "Phase Connect", key: "PConnect",checked:true  },
@@ -191,7 +191,9 @@ dataSet[dataSetVersion].characterData =
         img: "I9konYN.png",
         opts: {
             generation: ["Niji_EN"],
-            girl: true
+            girl: true,
+            retired: true,
+            gone: true,
           }
     },
     {
@@ -722,6 +724,42 @@ dataSet[dataSetVersion].characterData =
     {
         name: "Hakos Baelz",
         img: "Qtnjnfn.png",
+        opts: {
+            generation: ["en"],
+            notjphololive: true,
+            Nep:true
+        }
+    },
+      {
+        name: "FUWAMOCO",
+        img: "CkCpZtd.png",
+        opts: {
+            generation: ["en"],
+            notjphololive: true,
+            Nep:true
+        }
+    },
+        {
+        name: "Koseki Bijou",
+        img: "iUhvzM6.png",
+        opts: {
+            generation: ["en"],
+            notjphololive: true,
+            Nep:true
+        }
+    },
+          {
+        name: "Nerissa Ravencroft",
+        img: "jxhBgea.png",
+        opts: {
+            generation: ["en"],
+            notjphololive: true,
+            Nep:true
+        }
+    },
+            {
+        name: "Shiori Novella",
+        img: "n03xqcF.png",
         opts: {
             generation: ["en"],
             notjphololive: true,
@@ -1941,7 +1979,9 @@ dataSet[dataSetVersion].characterData =
         img: "griG50O.png",
         opts: {
           generation: ["Nijisanji_id"],
-          girl: true
+          girl: true,
+          retired: true,
+          gone: true,
         }
       },
       {
@@ -2394,28 +2434,6 @@ dataSet[dataSetVersion].characterData =
         }
       },
       {
-        name: "Nyanners",
-        img: "G93u5cb.png",
-        opts: {
-          generation: ["_VShojo"],
-          Nep:true
-        }
-      },
-      {
-        name: "Silvervale",
-        img: "vRuoTAr.png",
-        opts: {
-          generation: ["_VShojo"]
-        }
-      },
-      {
-        name: "Veibae",
-        img: "InJ38am.png",
-        opts: {
-          generation: ["_VShojo"]
-        }
-      },
-      {
         name: "Zentreya",
         img: "nqMGP8W.png",
         opts: {
@@ -2432,6 +2450,20 @@ dataSet[dataSetVersion].characterData =
       {
         name: "Amemiya Nazuna",
         img: "fluejun.png",
+        opts: {
+          generation: ["_VShojo"]
+        }
+      },
+        {
+        name: "Haruka Karibu",
+        img: "uH0IS6Y.png",
+        opts: {
+          generation: ["_VShojo"]
+        }
+      },       
+   {
+        name: "Henya the Genius",
+        img: "SgZNELY.png",
         opts: {
           generation: ["_VShojo"]
         }
@@ -2467,6 +2499,28 @@ dataSet[dataSetVersion].characterData =
         }
       },
       //Independent 
+        {
+        name: "Nyanners",
+        img: "G93u5cb.png",
+        opts: {
+          generation: ["_VShojo"],
+          Nep:true
+        }
+      },
+      {
+        name: "Veibae",
+        img: "InJ38am.png",
+        opts: {
+          generation: ["_VShojo"]
+        }
+      },
+        {
+        name: "Silvervale",
+        img: "vRuoTAr.png",
+        opts: {
+          generation: ["_VShojo"]
+        }
+      },
   /*    {
         name: "Amatsuka Uto",
         img: "c2QtsWB.png",
